@@ -1,4 +1,12 @@
+@font-face {
+    font-family: 'Lovely';
+    src: url('./lovely.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .hello {
     color: red;
-    background: url('./icon.png')
+    font-family: 'Lovely';
+    background: url('./icon.png');
 }
